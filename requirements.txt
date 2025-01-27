@@ -1,0 +1,6 @@
+torch                # For PyTorch
+torchvision        # For torchvision models and transforms
+pillow               # For image handling
+numpy               # For numerical computations
+matplotlib           # For plotting (if needed in the app)
+streamlit           # For building and deploying the Streamlit app
