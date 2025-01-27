@@ -90,7 +90,7 @@ uploaded_file = st.file_uploader("Upload a traffic sign image", type=["png", "jp
 if uploaded_file is not None:
     # Open and display the image
     image = Image.open(uploaded_file).convert("RGB")
-    img = image.resize((800, 600))
+    img = image.resize((400,400))
     st.image(img, caption="Uploaded Image", use_container_width=True)
 
     # Preprocess the image
