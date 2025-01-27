@@ -29,7 +29,20 @@ The dataset used in this project is the [GTSRB (German Traffic Sign Recognition 
 
 The dataset should be organized in the following structure:
 
-GTSRB/ │ ├── train/ │ ├── class_0/ │ ├── class_1/ │ ├── ... │ └── class_42/ │ ├── test/ │ ├── class_0/ │ ├── class_1/ │ ├── ... │ └── class_42/
+```bash
+GTSRB/
+├── train/
+│   ├── class_0/
+│   ├── class_1/
+│   ├── ...
+│   └── class_42/
+├── test/
+│   ├── class_0/
+│   ├── class_1/
+│   ├── ...
+│   └── class_42/
+```
+
 
 ## Installation
 
